@@ -28,7 +28,7 @@ export const WelcomeMessage = () => {
                             {user.name?.first} {user.name?.last}
                         </Text>
                     </div>
-                    <LogoutButton/>
+                    <LogoutButton className="mt-10"/>
                 </>
 
 

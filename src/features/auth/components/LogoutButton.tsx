@@ -2,12 +2,13 @@
 
 import {Button} from "@/components/ui";
 import {useLogout} from "../hooks/useLogout";
+import {clsx} from "clsx";
 
-const LogoutButton = () => {
+const LogoutButton = ({className}) => {
     const logout = useLogout();
 
     return (
-        <Button variant="outline-danger" className="text-red-600" onClick={logout}>
+        <Button variant="outline-danger" className={clsx(className, "text-red-600")} onClick={logout}>
             خروج
         </Button>
     );
