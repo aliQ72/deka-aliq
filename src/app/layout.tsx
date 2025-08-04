@@ -1,5 +1,6 @@
 import type {Metadata} from "next";
 import "../styles/globals.scss";
+import {Text} from "@/components/ui";
 
 
 export const metadata: Metadata = {

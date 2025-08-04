@@ -44,7 +44,7 @@ const AuthForm = () => {
                 error={errors.phone?.message}
             />
 
-            <Button type="submit" disabled={loading} className="w-full">
+            <Button variant="info" disabled={loading} className="w-full">
                 {loading ? "در حال ورود..." : "ورود"}
             </Button>
 
